@@ -46,7 +46,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
-  <component name="RunManager" selected="Go Build.go build publishTopic.go">
+  <component name="RunManager" selected="Go Build.go build publishRouting.go">
+    <configuration name="go build publishRouting.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/RabbitMQRouting/publishRouting.go" />
+      <package value="rabbitmq" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build publishTopic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="rabbitmq" />
       <working_directory value="$PROJECT_DIR$" />
@@ -59,9 +68,18 @@
     <configuration name="go build rabbitmq/RabbitMQRouting" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="rabbitmq" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/RabbitMQRouting/publishRouting.go" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/RabbitMQRouting/receiveImoocTwo.go" />
       <package value="rabbitmq/RabbitMQRouting" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build receiveImoocOne.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/RabbitMQRouting/receiveImoocOne.go" />
+      <package value="rabbitmq" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -74,38 +92,20 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build recieveImoocTopicAll.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="rabbitmq" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/RabbitMQTopic/recieveImoocTopicAll.go" />
-      <package value="rabbitmq" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build recieveImoocTopicTwo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="rabbitmq" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/RabbitMQTopic/recieveImoocTopicTwo.go" />
-      <package value="rabbitmq" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Go Build.go build receiveImoocTwo.go" />
-      <item itemvalue="Go Build.go build rabbitmq/RabbitMQRouting" />
-      <item itemvalue="Go Build.go build recieveImoocTopicAll.go" />
-      <item itemvalue="Go Build.go build recieveImoocTopicTwo.go" />
       <item itemvalue="Go Build.go build publishTopic.go" />
+      <item itemvalue="Go Build.go build rabbitmq/RabbitMQRouting" />
+      <item itemvalue="Go Build.go build receiveImoocTwo.go" />
+      <item itemvalue="Go Build.go build receiveImoocOne.go" />
+      <item itemvalue="Go Build.go build publishRouting.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build publishTopic.go" />
-        <item itemvalue="Go Build.go build recieveImoocTopicTwo.go" />
-        <item itemvalue="Go Build.go build recieveImoocTopicAll.go" />
-        <item itemvalue="Go Build.go build rabbitmq/RabbitMQRouting" />
+        <item itemvalue="Go Build.go build publishRouting.go" />
+        <item itemvalue="Go Build.go build receiveImoocOne.go" />
         <item itemvalue="Go Build.go build receiveImoocTwo.go" />
+        <item itemvalue="Go Build.go build rabbitmq/RabbitMQRouting" />
+        <item itemvalue="Go Build.go build publishTopic.go" />
       </list>
     </recent_temporary>
   </component>
